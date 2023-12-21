@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.nav {
+  padding-top: 5%;
+  padding-bottom: 15%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo {
+  height: 150px;
+  width: 150px;
+  margin-left: 5%;
+}
+.nav-options {
+  display: flex;
+  gap: 1rem;
+  margin-right: 5%;
+}
+.nav-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 10px;
+}
+.nav-button {
+  width: 200px;
+  color: white;
+  background-color: #00AEAE;
+  padding: 10px;
+  border: transparent;
+}
+#hero {
+  background-image: url('./assets/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home {
+  padding: 5%;
+}
+.home h1 {
+  font-size: 50px;
+  color: #00AEAE;
+}
+.home-dots {
+  border-bottom: dotted;
+  border-bottom-width: 9px;
+  color: #00AEAE;
+}
+.home-intro-pic {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  float: right;
+  margin: 5px;
+}
+.home-section h1 {
+  color: #00AEAE;
+}
+.yoga-alliance {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 5%;
+}
+.yoga-alliance img {
+  height: 150px;
+  height: 150px;
+}
+.home-discover {
+  display: flex;
+  background-color: #00AEAE;
+  text-align: center;
+  color: white;
+}
+.home-discover h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%
+}
+.discover-pics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.discover-pics img {
+  height: 200px;
+  width: 550px;
+  
+}
+.discover-two-pics {
+  display: flex;
+}
+.mission {
+  display: flex;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.mission-details {
+  width: 50%
+}
+.mission h2 {
+  color: #00AEAE;
+  font-size: 100px
+}
+
+.home-mission-pic {
+  /* height:400px; */
+  width: 50%;
+  padding-top: 5%;
+}
+
+.vision-details {
+  padding-left: 5%;
+}
+.vision-details h2 {
+  text-align: right;
+}
+.purpose {
+  padding-bottom: 2%;
+}
+.questions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #C5C5C5;
+  color: white;
+}
+.questions-buttons {
+  display: flex;
+  gap: 2rem;
+  background-color: #C5C5C5;
+}
+.questions-buttons button {
+  background-color: #C5C5C5;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 20px;
+  border: 3px solid;
+  font-size: 16px;
+  border-color: #00AEAE;
+}
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+.testimonial-videos {
+  display: flex;
+  gap: 2rem;
+}
+.footer {
+  display: flex;
+  background-color: #00AEAE;
+  justify-content: space-between;
+  padding:1% 5%;
+  align-items: center;
+}
+.footer img {
+  width: 7rem;
+
+}
+
+
+
