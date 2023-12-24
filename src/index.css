@@ -1,1 +1,58 @@
+@font-face {
+    font-family: "Garet-Book";
+    src: local('Garet-Book'),
+        url('./assets/fonts/Garet-Book.ttf');
+}
 
+
+p {
+    font-family: 'Garet-Book';
+}
+
+@media only screen and (max-width: 600px) {
+    .yoga-alliance {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    
+    }
+    /* .yoga-alliance img {
+
+        height: 100px;
+        width: 100px;
+    } */
+    .home-discover {
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-discover h2 {
+        padding: 10%;
+    }
+    .mission {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .mission h2 {
+        margin-top: 0;
+    }
+    .mission-details {
+        width: 100%;
+    }
+    .home-mission-pic {
+        /* height:400px; */
+        width: 100%;
+      }
+    .vision {
+        flex-direction: column-reverse;
+    }
+    .questions {
+        flex-direction: column;
+    }
+    .questions-buttons {
+        flex-direction: column;
+        padding-bottom: 5%;
+    }
+    .testimonial-videos {
+        flex-direction: column;
+    }
+}

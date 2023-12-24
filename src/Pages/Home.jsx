@@ -7,6 +7,7 @@ import founder from '../assets/founder-img.jpeg'
 import teachGoa from '../assets/teachGoa.jpg'
 import classPicGoa from '../assets/classPicGoa.jpg'
 import goaBeach from '../assets/goaBeach.jpg'
+import dogGoa from '../assets/dogGoa.jpg'
 import YoutubeEmbed from '../Components/YoutubeImbed'
 
 export default function Home() {
@@ -22,26 +23,28 @@ export default function Home() {
                     <p>“Saying you are not flexible and fit enough for yoga, is like saying you are too dirty to take a bath.&quot; - Devesh Bhargav, founder of Heartland Yoga.</p> </p>
             </div>
             <div className='yoga-alliance'>
-                <img src={rys200} alt="" />
-                <img src={rys300} alt="" />
-                <img src={YACEP} alt="" />
+                <img src={rys200} alt="Yoga alliance seal" />
+                <img src={rys300} alt="Yoga alliance seal" />
+                <img src={YACEP} alt="Yoga alliance seal" />
             </div>
             <div className='home-discover'>
                 <h2>Discover <br /> our<br /> Location</h2>
                 <div className='discover-pics'>
-                    <img src={goaBeach} alt="" />
-                    <img src={mountainYogi} alt="" />
-                    <div className='discover-two-pics'><img src={mountainYogi} alt="" /></div>
+                    <img src={dogGoa} alt="" />
+                    <img src={dogGoa} alt="" />
+                    <img src={dogGoa} alt="" />
+                    {/* <div className='discover-goa'>Goa, India</div>
+                    <div className='discover-two-pics'><img src={mountainYogi} alt="" /></div> */}
                 </div>
             </div>
             <div className='mission'>
                 <div className='mission-details'>
                     <h2>our <br />mission</h2>
-                    <p>Ensure an inclusive and nourishing environment to provide the yoga community with quality training, workshops, and classes that support the exploration and expansion of the mind, body, and soul. We aim to engage the yoga community in holistic wellness and collective wellbeing.</p>
+                    <p>Ensure an inclusive and nourishing environment to provide quality training, workshops, and classes that support the exploration and expansion of the mind, body, and soul. We aim to engage the yoga community in holistic wellness and collective wellbeing.</p>
                 </div>
                 <img src={teachGoa} alt="" className='home-mission-pic' />
             </div>
-            <div className='mission'>
+            <div className='vision'>
                 <img src={classPicGoa} alt="" className='home-mission-pic' />
 
                 <div className='vision-details'>
@@ -74,8 +77,8 @@ export default function Home() {
                     <h3>Have questions about what<br />course is best for you?</h3>
                 </div>
                 <div className='questions-buttons'>
-                    <button> connect with us</button>
-                    <button> upcoming courses</button>
+                    <button>connect with us</button>
+                    <button>upcoming courses</button>
                 </div>
             </div>
 

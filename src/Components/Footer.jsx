@@ -6,12 +6,12 @@ export default function Footer() {
     
       <div>
         <p>Teacher Training</p>
-        <p>Retreats</p>
+        <p>Yoga Retreats</p>
       </div>
       <img src={logo} alt="" />
-      <div>
-        <p>About</p>
-        <p>Contact</p>
+      <div className='footer-div-right'>
+        <p>About Heartland</p>
+        <p>Contact Us</p>
       </div>
 
       </footer>
